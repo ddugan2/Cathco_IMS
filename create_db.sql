@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS items;
 CREATE TABLE IF NOT EXISTS items
 (
 	item_id	INT	PRIMARY KEY,
-    item_name	VARCHAR(25)	NOT NULL,
+    item_name	VARCHAR(50)	NOT NULL,
     price	DECIMAL(6,2)	NOT NULL,
     cost	DECIMAL(6,2)	NOT NULL,
     quantity	INT	NOT NULL	DEFAULT 0,
